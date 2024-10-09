@@ -1,0 +1,235 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('/mixer/assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+         url('/mixer/assets/fonts/roboto-v20-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+         url('/mixer/assets/fonts/roboto-v20-latin-500.woff2') format('woff2'),
+         url('/mixer/assets/fonts/roboto-v20-latin-500.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+         url('/mixer/assets/fonts/roboto-v20-latin-700.woff2') format('woff2'),
+         url('/mixer/assets/fonts/roboto-v20-latin-700.woff') format('woff');
+}
+
+html, body {
+    margin: unset;
+    background-color: #f4f4f4;
+    color: #404040;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.kQLMxG {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1366px) 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        'header header header'
+        '. content .'
+        'footer footer footer';
+}
+
+.header {
+    grid-area: header;
+    background-color: #0086ff;
+    padding: 16px;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 16px;
+    text-align: center;
+    background-color: #0086ff;
+    color: #fff;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+a:hover {
+    border: 0px solid transparent;
+}
+
+a:focus {
+    border: 0px solid transparent;
+}
+
+a:focus-visible {
+    outline: auto 1px Highlight;
+    outline: auto 1px -webkit-focus-ring-color;
+}
+
+.gXLejW {
+    margin: 0px;
+    max-height: 44px;
+}
+
+.gAUWDz {
+    margin: 24px 0px 0px;
+}
+
+
+.kHypfl {
+    margin: 18px 0px 24px 0px;
+    padding: 24px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.gGlnnl {
+    margin: 24px 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.hxQxXQ {
+    margin: 24px 0;
+    padding: 24px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.eaTpiD {
+    margin: 24px 0;
+}
+
+.jrgmYu {
+    padding: 16px 16px;
+}
+
+.ldZlAe {
+    position: relative;
+    cursor: pointer;
+}
+
+.ldZlAe div, .ldZlAe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.cVDQcT {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0086ff;
+}
+
+.jCMaNC {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0086ff;
+}
+
+.jCMaNC #seloEbit > img {
+    height: 40px;
+    width: auto;
+    margin-right: 16px;
+}
+
+.flFwXX {
+    position: relative;
+}
+
+.eFwFGI {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+@media screen and (min-width: 64em) {
+    .eFwFGI {
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+}
+
+.jZdfAA {
+    font-size: 16px;
+    margin: 0 8px 30px;
+}
+
+@media screen and (min-width: 64em) {
+    .jZdfAA {
+        font-size: 24px;
+    }
+}
+
+.jfxIjZ {
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.jZtkNE {
+    border-radius: 150px;
+    width: 90px;
+    height: 90px;
+}
+
+.cNHect {
+    margin-top: 15px;
+    text-align: center;
+    width: 90px;
+    line-height: 1.25;
+    color: #404040;
+}
+
+.lelXKZ {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+@keyframes hUniol {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
