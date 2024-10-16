@@ -35,13 +35,12 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #0056b3;
     color: white;
 }
 
 .logo img {
     height: 50px;
-    filter: invert(100%);
 }
 
 .search-bar {
@@ -60,15 +59,10 @@ html, body {
 .search-bar button {
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #ffffff;
+    background-color: #ffff;
     color: white;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-}
-
-.search-bar button img {
-    width: 18; /* Tamanho da lupa */
-    height: 18px;
 }
 
 .user-options {
@@ -94,4 +88,9 @@ html, body {
     height: 24px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.search-bar button img {
+    width: 18px; /* Tamanho da lupa */
+    height: 16px;
 }
