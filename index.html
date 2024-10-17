@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barra de Navegação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,22 +24,96 @@
 
     <div class="main-bar">
         <div class="logo">
-            <img src="logo.png" alt="Logo da Loja">
+            <img src="https://raw.githubusercontent.com/Douglas-Marcondes/replica_2D_Douglas/a7fa2b07a0da70a69b85e0fcc8cd4702a9c388a0/magalu-logo.svg" alt="Logo da Loja">
         </div>
 
         <div class="search-bar">
-            <input type="text" placeholder="Pesquisar...">
+            <input type="text" placeholder="Busca no Magalu">
             <button><img src="https://github.com/Douglas-Marcondes/replica_2D_Douglas/blob/main/pngwing.com%20(4).png?raw=true" alt="Lupa"></button>
         </div>
 
         <div class="user-options">
             <span>Bem-vindo :) <a href="#">Entre</a> ou <a href="#">Cadastre-se</a></span>
-            <a href="#">Ver ofertas para minha região</a>
+
+            <div class="container">
+                <img src="https://github.com/Douglas-Marcondes/replica_2D_Douglas/blob/main/pngwing.com%20(8).png?raw=true" alt="Localização" class="imagem">
+                <div class="texto">
+                    <p>Buscar ofertas em minha região</p>
+                </div>
+            </div>
+
             <div class="icons">
+
                 <img src="heart-icon.png" alt="Favoritos">
+
                 <img src="bag-icon.png" alt="Sacola de Compras">
+
             </div>
         </div>
     </div>
+
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1"
+              tabindex="0"
+              class="carousel__slide1">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4"
+                 class="carousel__prev">Go to last slide</a>
+              <a href="#carousel__slide2"
+                 class="carousel__next">Go to next slide</a>
+            </div>
+          </li>
+          <li id="carousel__slide2"
+              tabindex="0"
+              class="carousel__slide2">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3"
+               class="carousel__next">Go to next slide</a>
+          </li>
+          <li id="carousel__slide3"
+              tabindex="0"
+              class="carousel__slide3">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide4"
+               class="carousel__next">Go to next slide</a>
+          </li>
+          <li id="carousel__slide4"
+              tabindex="0"
+              class="carousel__slide4">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide1"
+               class="carousel__next">Go to first slide</a>
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1"
+                 class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2"
+                 class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3"
+                 class="carousel__navigation-button">Go to slide 3</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4"
+                 class="carousel__navigation-button">Go to slide 4</a>
+            </li>
+          </ol>
+        </aside>
+      </section>
+    
+    <script src="app.js"></script>
 </body>
 </html>
